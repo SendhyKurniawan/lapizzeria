@@ -1,0 +1,498 @@
+.navbar {
+  background-color: rgb(231, 39, 45);
+  height: 5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-after-scroll {
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-before-scroll .navlogo {
+  width: 50px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-after-scroll .navlogo {
+  width: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-before-scroll .navbar-collapse {
+  background-color: rgb(231, 39, 45);
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.navbar-after-scroll .navbar-collapse {
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+.dropdown-item:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.jumbotron {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-color: rgb(231, 39, 45);
+  overflow: hidden;
+}
+
+.content {
+  color: white;
+}
+
+.holiborder {
+  border-color: rgb(251, 190, 54);
+}
+
+.title {
+  color: rgb(251, 190, 54);
+}
+
+.pricetag {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  background-color: rgb(251, 190, 54);
+  scale: 130%;
+}
+
+.pricewrap {
+  margin: auto;
+  padding: 30px;
+}
+
+.price {
+  margin: 0;
+  display: inline-block;
+}
+
+#price {
+  color: rgb(231, 39, 45);
+}
+
+.ordernowbtn {
+  color: black;
+  background-color: rgb(251, 190, 54) !important;
+}
+
+.cardinvis {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.cardmenuhoverup {
+  transform: translateY(-5%);
+  transition: all 0.2s ease-in-out;
+}
+.cardmenuhoverbot {
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.pizzaimg {
+  padding-top: 3rem;
+  margin: auto;
+  width: 80% !important;
+  height: 80% !important;
+  z-index: 20;
+}
+
+.card-body {
+  z-index: 20;
+}
+
+.buynow {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(251, 190, 54) !important;
+}
+
+.carticon {
+  padding: 5px 0;
+}
+
+.bodysvg {
+  margin-right: 15px;
+  position: absolute;
+  z-index: 10;
+  fill: white;
+  stroke: lightgray;
+}
+
+.bodysvghover {
+  margin-right: 15px;
+  position: absolute;
+  z-index: 10;
+  fill: rgb(231, 39, 45) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.parallax {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("parallax.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.freepizza {
+  color: rgb(137, 183, 88);
+}
+.orderparallaxbtn {
+  background-color: rgb(137, 183, 88) !important;
+}
+.orderparallaxbtn:hover {
+  color: white;
+  background-color: rgb(51, 51, 51) !important;
+}
+
+.about {
+  text-align: justify;
+  overflow: hidden;
+}
+
+.getdirectionbtn {
+  color: white;
+  background-color: rgb(231, 39, 45) !important;
+}
+.getdirectionbtn:hover {
+  color: white;
+  background-color: rgb(251, 190, 54) !important;
+}
+
+.iconwrap {
+  color: rgb(231, 39, 45);
+  text-align: center;
+}
+
+.aboutimg {
+  float: right !important;
+  width: 700px;
+  position: relative;
+  height: auto;
+  margin-right: -60% !important;
+}
+
+.sideingredient {
+  color: rgb(231, 39, 45) !important;
+  text-decoration: none;
+}
+
+.menuborder {
+  border-style: dashed;
+  color: gray;
+}
+
+.menuprice {
+  color: rgb(231, 39, 45);
+}
+
+.menudesc {
+  color: gray;
+}
+
+.orderdeals {
+  color: white !important;
+  text-decoration: none;
+}
+
+#carddeals1 {
+  background-color: rgb(231, 39, 45) !important;
+}
+#carddeals2 {
+  background-color: rgb(35, 35, 35) !important;
+}
+#carddeals3 {
+  background-color: rgb(251, 190, 54) !important;
+}
+
+.squarebox {
+  width: 100%;
+  height: 500px;
+}
+
+.playbtn {
+  width: 75px;
+  height: 75px;
+}
+.playbtn:hover {
+  background-color: crimson !important;
+  scale: 110%;
+  transition: all 0.2s ease-in-out;
+}
+
+.iconplay {
+  font-size: 45px;
+}
+
+.reviewimg {
+  background-size: cover;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.walterwhite {
+  background-image: url(img/review/walterwhite.webp);
+  background-position: top;
+  width: 100%;
+}
+.jesse {
+  background-image: url(img/review/jesse.webp);
+  background-position: top;
+  width: 100%;
+}
+.gustavo {
+  background-image: url(img/review/gustavo.webp);
+  background-position: top;
+  width: 100%;
+}
+.saul {
+  background-image: url(img/review/saul.webp);
+  background-position: top;
+  width: 100%;
+}
+
+.team {
+  background-color: rgb(231, 39, 45);
+}
+
+.teamcard {
+  background-color: rgb(255, 244, 226) !important;
+}
+
+.teamimg {
+  background-size: cover;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.iconbtn {
+  width: 50px;
+  height: 50px;
+}
+.iconbtn:hover {
+  scale: 110%;
+  transition: all 0.2s ease-in-out;
+}
+
+.socmedicon {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(231, 39, 45) !important;
+}
+
+.sendmsgbtn {
+  color: white;
+  background-color: rgb(137, 183, 88) !important;
+}
+.sendmsgbtn:hover {
+  color: white;
+  background-color: rgb(51, 51, 51) !important;
+}
+.downloadbtn {
+  color: white;
+  background-color: rgb(51, 51, 51) !important;
+}
+.downloadbtn:hover {
+  scale: 110%;
+  transition: all 0.2s ease-in-out;
+}
+
+.footermenu {
+  color: white !important;
+  text-decoration: none;
+}
+.footermenu:hover {
+  color: rgb(231, 39, 45) !important;
+  text-decoration: none;
+}
+.footericon {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(231, 39, 45);
+}
+
+.footerbtn {
+  width: 50px;
+  height: 50px;
+}
+.footerbtn:hover {
+  scale: 120%;
+  transition: all 0.2s ease-in-out;
+}
+
+.footlogo:hover {
+  rotate: 360deg;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1200px) {
+  .promoimg {
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 35px;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .promoimg {
+    padding-top: 30px;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 30px;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .promoimg {
+    padding-top: 30px;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 23px;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .promoimg {
+    padding-top: 30px;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 25px;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .promoimg {
+    padding-top: 30px;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 25px;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .promoimg {
+    margin: auto;
+  }
+
+  .pricetag {
+    left: 10%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 15px;
+  }
+
+  .mainimg {
+    margin: auto;
+    width: 100%;
+  }
+
+  .cardmenu {
+    scale: 90%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .promoimg {
+    margin: auto;
+  }
+
+  .pricetag {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 190, 54);
+  }
+
+  .pricewrap {
+    margin: auto;
+    padding: 15px;
+  }
+
+  .mainimg {
+    margin: auto;
+    width: 275px;
+  }
+}

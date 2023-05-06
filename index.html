@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon -->
+    <link rel="icon" href="img/logo.svg" type="image/x-icon" />
+    <title>La Pizzeria</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <section class="navigation">
+      <nav class="navbar navbar fixed-top navbar-expand-lg navbar-before-scroll shadow-0" id="main-navbar">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"> <img class="navlogo" src="img/logo.svg" alt="Pizzeria" /> La Pizzeria </a>
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse rounded-bottom-5" id="navbarNavDropdown">
+            <ul class="navbar-nav text-uppercase ms-auto mb-2 mb-lg-0 p-3">
+              <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Live Demo </a>
+                <ul class="dropdown-menu rounded-bottom-3">
+                  <li><a class="dropdown-item text-white" href="#">Thai Food Demo</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Pizza Bar Demo</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Sushi Cafe Demo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Live Demo Blocks</a>
+                <ul class="dropdown-menu rounded-bottom-3">
+                  <li><a class="dropdown-item text-white" href="#">Headers/Features/Pricing/Info</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Content/Shop/Accordions/Video</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Gallery/Team/Testimonials/Forms</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Progress/Maps/Contacts/Footers</a></li>
+                </ul>
+              </li>
+              <div class="buynowbtn">
+                <a href="#" class="btn btn-light btn-md rounded-pill">BUY NOW</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="content">
+              <div class="title row">
+                <div class="col-md-7">
+                  <h2 class="text-uppercase fs-3 fw-bold">HAPPY HOUR SPECIAL</h2>
+                </div>
+                <div class="col-md-5">
+                  <hr class="holiborder border-5 opacity-100" />
+                </div>
+              </div>
+              <h1 class="display-1 fw-bold text-uppercase">Pizza Party</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio explicabo ipsum dignissimos officia placeat vitae quis inventore! Ad ea, omnis exercitationem, obcaecati vitae quidem nesciunt commodi suscipit assumenda,
+                nostrum sed?
+              </p>
+              <div class="pt-3">
+                <a href="#" class="ordernowbtn btn btn-warning btn-md rounded-pill p-3 px-5 fw-bold"><i class="bi bi-cart3"></i> ORDER ONLINE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 promoimg justify-content-center">
+            <div class="pricetag rounded-circle shadow-lg">
+              <div class="pricewrap">
+                <h4 class="price fw-bold" id="pricetext">Only</h4>
+                <h3 class="price display-3 fw-bold" id="price">$19</h3>
+              </div>
+            </div>
+            <div>
+              <img class="mainimg" src="img/pizza/pepperoni.png" alt="Pepperoni Pizza" width="600px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Jumbotron -->
+
+    <!-- Special Menu -->
+    <section class="specialmenu py-5">
+      <div class="container pb-3">
+        <div class="row text-center pb-5">
+          <h2>SPECIALS COMBO</h2>
+          <h1 class="fw-bold display-4">Our Best Sellers</h1>
+        </div>
+        <div class="row">
+          <!-- Card Menu -->
+          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu1">
+            <img src="img/pizza/mozzarela.png" class="card-img pizzaimg" id="cardimg" alt="mozzarela" />
+            <div class="card-body" id="cardbody1">
+              <h4 class="card-title fw-bold">Mozzarela</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis!</p>
+              <h5 class="fw-bold">$ 12</h5>
+              <a href="#">
+                <div class="buynow btn rounded-circle">
+                  <div class="carticon"><i class="bi bi-cart3"></i></div>
+                </div>
+              </a>
+            </div>
+            <!-- Body SVG -->
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+              <path
+                id="bodysvg1"
+                class="bodysvg"
+                d="M235.35,0H19.64A19.61,19.61,0,0,0,0,19.59V423.24a19.62,19.62,0,0,0,19.64,19.6H53.4l-1,.09a45.89,45.89,0,0,1,32,12.15c6.73,6.28,11.46,14.52,18.55,20.4,13.23,11,34.19,11.33,47.78.79,7.07-5.49,12-13.26,18.32-19.56,8.81-8.75,21-14.67,33.42-13.73l-1.43-.14h34.23A19.62,19.62,0,0,0,255,423.24V19.59A19.61,19.61,0,0,0,235.35,0Z"
+              />
+            </svg>
+            <!-- Body SVG -->
+          </div>
+          <!-- Card Menu -->
+          <!-- Card Menu -->
+          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu2">
+            <img src="img/pizza/thaicombo.png" class="card-img pizzaimg" id="cardimg" alt="thaicombo" />
+            <div class="card-body" id="cardbody2">
+              <h4 class="card-title fw-bold">Thai Combo</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis!</p>
+              <h5 class="fw-bold">$ 12</h5>
+              <a href="#">
+                <div class="buynow btn rounded-circle">
+                  <div class="carticon"><i class="bi bi-cart3"></i></div>
+                </div>
+              </a>
+            </div>
+            <!-- Body SVG -->
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+              <path
+                id="bodysvg2"
+                class="bodysvg"
+                d="M235.35,0H19.64A19.61,19.61,0,0,0,0,19.59V423.24a19.62,19.62,0,0,0,19.64,19.6H53.4l-1,.09a45.89,45.89,0,0,1,32,12.15c6.73,6.28,11.46,14.52,18.55,20.4,13.23,11,34.19,11.33,47.78.79,7.07-5.49,12-13.26,18.32-19.56,8.81-8.75,21-14.67,33.42-13.73l-1.43-.14h34.23A19.62,19.62,0,0,0,255,423.24V19.59A19.61,19.61,0,0,0,235.35,0Z"
+              />
+            </svg>
+            <!-- Body SVG -->
+          </div>
+          <!-- Card Menu -->
+          <!-- Card Menu -->
+          <div class="card cardmenu cardinvis  col-md-6 col-lg-3 text-center pt-5" id="cardmenu3">
+            <img src="img/pizza/mozzarela.png" class="card-img pizzaimg" id="cardimg" alt="mozzarela" />
+            <div class="card-body" id="cardbody3">
+              <h4 class="card-title fw-bold">Mozzarela</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis!</p>
+              <h5 class="fw-bold">$ 12</h5>
+              <a href="#">
+                <div class="buynow btn rounded-circle">
+                  <div class="carticon"><i class="bi bi-cart3"></i></div>
+                </div>
+              </a>
+            </div>
+            <!-- Body SVG -->
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+              <path
+                id="bodysvg3"
+                class="bodysvg"
+                d="M235.35,0H19.64A19.61,19.61,0,0,0,0,19.59V423.24a19.62,19.62,0,0,0,19.64,19.6H53.4l-1,.09a45.89,45.89,0,0,1,32,12.15c6.73,6.28,11.46,14.52,18.55,20.4,13.23,11,34.19,11.33,47.78.79,7.07-5.49,12-13.26,18.32-19.56,8.81-8.75,21-14.67,33.42-13.73l-1.43-.14h34.23A19.62,19.62,0,0,0,255,423.24V19.59A19.61,19.61,0,0,0,235.35,0Z"
+              />
+            </svg>
+            <!-- Body SVG -->
+          </div>
+          <!-- Card Menu -->
+          <!-- Card Menu -->
+          <div class="card cardmenu cardinvis  col-md-6 col-lg-3 text-center pt-5" id="cardmenu4" >
+            <img src="img/pizza/thaicombo.png" class="card-img pizzaimg" id="cardimg" alt="thaicombo" />
+            <div class="card-body" id="cardbody4">
+              <h4 class="card-title fw-bold">Thai Combo</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis!</p>
+              <h5 class="fw-bold">$ 12</h5>
+              <a href="#">
+                <div class="buynow btn rounded-circle">
+                  <div class="carticon"><i class="bi bi-cart3"></i></div>
+                </div>
+              </a>
+            </div>
+            <!-- Body SVG -->
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96">
+              <path
+                id="bodysvg4"
+                class="bodysvg"
+                d="M235.35,0H19.64A19.61,19.61,0,0,0,0,19.59V423.24a19.62,19.62,0,0,0,19.64,19.6H53.4l-1,.09a45.89,45.89,0,0,1,32,12.15c6.73,6.28,11.46,14.52,18.55,20.4,13.23,11,34.19,11.33,47.78.79,7.07-5.49,12-13.26,18.32-19.56,8.81-8.75,21-14.67,33.42-13.73l-1.43-.14h34.23A19.62,19.62,0,0,0,255,423.24V19.59A19.61,19.61,0,0,0,235.35,0Z"
+              />
+            </svg>
+            <!-- Body SVG -->
+          </div>
+          <!-- Card Menu -->
+        </div>
+      </div>
+    </section>
+    <!-- Special Menu -->
+
+    <!-- Parallax -->
+    <section class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <div class="align-items-start text-white">
+              <span class="display-6 fw-bold">BUY</span>
+              <span class="display-2 fw-bold">2</span>
+              <span class="display-6 fw-bold">GET</span>
+              <span class="display-2 fw-bold">1</span>
+            </div>
+            <h1 class="display-1 fw-bold freepizza">FREE PIZZA!</h1>
+            <div class="pt-3">
+              <a href="#" class="orderparallaxbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-cart3"></i> ORDER ONLINE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Parallax -->
+
+    <!-- about us -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-5">
+            <div>
+              <h2 class="display-5">Welcome</h2>
+              <h1 class="display-2 fw-bold">We make the best pizza in Cibaduyut</h1>
+              <h3 class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odit fuga quos vitae, dolorem animi.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi impedit itaque assumenda quaerat aliquid ratione quibusdam perferendis eos sint hic.</p>
+              <div class="pt-3">
+                <a href="#" class="getdirectionbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-arrow-right-circle"></i> GET DIRECTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-2">
+            <div class="iconwrap p-3">
+              <i class="bi bi-apple display-3"></i>
+              <h5>A new look on the right food!</h5>
+            </div>
+            <div class="iconwrap p-3">
+              <i class="bi bi-globe2 display-3"></i>
+              <h5>The use of natural best quality products</h5>
+            </div>
+            <div class="iconwrap p-3">
+              <i class="bi bi-people display-3"></i>
+              <h5>World’s best Chef and Nutritionist!</h5>
+            </div>
+            <div class="iconwrap p-3">
+              <i class="bi bi-truck display-3"></i>
+              <h5>Fastest delivery on your door step</h5>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5">
+            <div class="aboutimgwrap">
+              <img class="aboutimg" src="img/pizza/mozzarela.png" alt="Mozzarela" width="800px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+
+    <!-- Ingredients -->
+    <section class="ingredient py-5 bg-dark">
+      <div class="container">
+        <div class="row text-center text-white">
+          <h2 class="display-5">INGREDIENT</h2>
+          <h1 class="fw-bold display-2">Cooked with natural ingredient</h1>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 col-lg-4 text-white">
+            <div class="item">
+              <h3 class="pb-2">
+                Fresh <a href="#" class="sideingredient"><strong>Vegetables</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+            <div class="item">
+              <h3 class="pb-2">
+                Lettuce <a href="#" class="sideingredient"><strong>Leaf</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+            <div class="item">
+              <h3 class="pb-2">
+                Glow <a href="#" class="sideingredient"><strong>Cheese</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 my-auto">
+            <img src="img/pizza/mozzarela.png" alt="Mozzarela" width="100%" />
+          </div>
+
+          <div class="col-md-12 col-lg-4 text-white text-end">
+            <div class="item">
+              <h3 class="pb-2">
+                Mild <a href="#" class="sideingredient"><strong>Butter</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+            <div class="item">
+              <h3 class="pb-2">
+                Sleek <a href="#" class="sideingredient"><strong>Onion</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+            <div class="item">
+              <h3 class="pb-2">
+                Slices <a href="#" class="sideingredient"><strong>Beef</strong></a>
+              </h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet luctus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ingredients -->
+
+    <!-- Menu -->
+    <section class="menu py-5">
+      <div class="container">
+        <div class="row text-center">
+          <h4>Menu</h4>
+          <h2 class="fw-bold display-3">Choose your dish</h2>
+        </div>
+        <div class="row pt-5 pb-5">
+          <div class="boxmenu col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Salmon Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$18</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">THAI FOOD</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Spicy Fish Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$28</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">PIZZA</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Mozzarela Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$14</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Salmon Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$18</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="boxmenu col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Salmon Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$18</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">THAI FOOD</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Spicy Fish Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$28</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">PIZZA</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Mozzarela Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$14</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+              <div class="col-md-12 pt-3">
+                <div>
+                  <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <p class="fs-3 fw-bold">Salmon Pizza</p>
+                  </div>
+                  <div class="col-md-4">
+                    <hr class="menuborder border-3 opacity-100" />
+                  </div>
+                  <div class="col-md-2">
+                    <p class="fs-3 fw-bold menuprice">$18</p>
+                  </div>
+                </div>
+                <p class="fs-6 menudesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex officia perferendis vitae? Porro, commodi nostrum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center pt-5 pb-5">
+          <h4>Deals</h4>
+          <h2 class="fw-bold display-3">Choose your dish</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-3" id="carddeals1">
+              <div class="row g-0 align-items-center p-4">
+                <div class="col-md-8">
+                  <div class="card-body text-white">
+                    <h3 class="card-title fw-bold">Fresh Pizza</h3>
+                    <h5 class="card-text">Vegan Set</h5>
+                    <a href="" class="orderdeals">ORDER NOW <i class="bi bi-arrow-right-circle"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/pizza/thaicombo.png" class="img-fluid rounded-start" alt="Wegan" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-3" id="carddeals2">
+              <div class="row g-0 align-items-center p-4">
+                <div class="col-md-8">
+                  <div class="card-body text-white">
+                    <h3 class="card-title fw-bold">Pizza</h3>
+                    <h5 class="card-text">Mozzarela</h5>
+                    <a href="" class="orderdeals">ORDER NOW <i class="bi bi-arrow-right-circle"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/pizza/mozzarela.png" class="img-fluid rounded-start" alt="mojek" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-3" id="carddeals3">
+              <div class="row g-0 align-items-center p-4">
+                <div class="col-md-8">
+                  <div class="card-body text-white">
+                    <h3 class="card-title fw-bold">Burger</h3>
+                    <h5 class="card-text">Beef Steak</h5>
+                    <a href="" class="orderdeals">ORDER NOW <i class="bi bi-arrow-right-circle"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/burger/cheeseburger.png" class="img-fluid rounded-start" alt="burgir" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu -->
+
+    <!-- Video -->
+    <section class="parallax video squarebox d-flex justify-content-center align-items-center">
+        <div class="rounded-circle btn playbtn bg-danger d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#videoModal">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="iconplay text-white bi bi-play-circle"></i></button>
+        </div>
+      </div>
+      <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-transparent border-0">
+            <div class="modal-body">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/U4lz8MN6MQA"
+                  title="DOOM CROSSING: Eternal Horizons ■ Music Video feat. Natalia Natchan aka PiNKII"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Video -->
+
+    <!-- Client review -->
+    <section class="clientsreview py-5">
+      <div class="container text-center pb-5">
+        <h4>Reward</h4>
+        <h2 class="fw-bold display-3">Clients review</h2>
+      </div>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-dark">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner pb-5">
+            <div class="carousel-item active">
+              <div class="card cardinvis mb-3 ">
+                <div class="row align-items-center reviewcard">
+                  <div class="col-lg-6">
+                    <div class="walterwhite rounded-5 reviewimg">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <i class="bi bi-quote display-1 text-body-secondary"></i>
+                      <p class="card-text fs-3 fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quae sunt nisi earum perspiciatis veritatis.</p>
+                      <h5 class="card-title fs-3 fw-bold">Walter White</h5>
+                      <p class="card-text"><small class="text-body-secondary fs-5">Head Chef</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cardinvis mb-3 reviewcard">
+                <div class="row g-0 align-items-center">
+                  <div class="col-lg-6">
+                    <div class="jesse rounded-5 reviewimg">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <i class="bi bi-quote display-1 text-body-secondary"></i>
+                      <p class="card-text fs-3 fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quae sunt nisi earum perspiciatis veritatis.</p>
+                      <h5 class="card-title fs-3 fw-bold">Jesse Pinkman</h5>
+                      <p class="card-text"><small class="text-body-secondary fs-5">Sous Chef</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cardinvis mb-3 reviewcard">
+                <div class="row g-0 align-items-center">
+                  <div class="col-lg-6">
+                    <div class="gustavo rounded-5 reviewimg">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <i class="bi bi-quote display-1 text-body-secondary"></i>
+                      <p class="card-text fs-3 fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quae sunt nisi earum perspiciatis veritatis.</p>
+                      <h5 class="card-title fs-3 fw-bold">Gustavo Fring</h5>
+                      <p class="card-text"><small class="text-body-secondary fs-5">Restaurant Entrepreneur</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Client Review -->
+
+    <!-- Team -->
+    <section class="team py-5">
+      <div class="container">
+        <div class="row text-white text-center">
+          <h4>Team</h4>
+          <h2 class="fw-bold display-3">Behind the taste</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 p-3">
+            <div class="card teamcard text-center py-5 rounded-4">
+              <div class="walterwhite rounded-circle teamimg">
+              </div>
+              <div class="card-body pt-3">
+                <h5 class="card-title fw-bold">Walter White</h5>
+                <p class="card-text text-body-secondary">Head Chef</p>
+                <div class="socmedwrap pt-3">
+                  <div class="row justify-content-center">
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-facebook fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-instagram fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-whatsapp fs-2"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 p-3">
+            <div class="card teamcard text-center py-5 rounded-4">
+              <div class="jesse rounded-circle teamimg">
+              </div>
+              <div class="card-body pt-3">
+                <h5 class="card-title fw-bold">Jesse Pinkman</h5>
+                <p class="card-text text-body-secondary">Sous Chef</p>
+                <div class="socmedwrap pt-3">
+                  <div class="row justify-content-center">
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-facebook fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-instagram fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-whatsapp fs-2"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 p-3">
+            <div class="card teamcard text-center py-5 rounded-4">
+              <div class="gustavo rounded-circle teamimg">
+              </div>
+              <div class="card-body pt-3">
+                <h5 class="card-title fw-bold">Gustavo Fring</h5>
+                <p class="card-text text-body-secondary">Restaurant Entrepreneur</p>
+                <div class="socmedwrap pt-3">
+                  <div class="row justify-content-center">
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-facebook fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-instagram fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-whatsapp fs-2"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 p-3">
+            <div class="card teamcard text-center py-5 rounded-4">
+              <div class="saul rounded-circle teamimg">
+              </div>
+              <div class="card-body pt-3">
+                <h5 class="card-title fw-bold">James Morgan</h5>
+                <p class="card-text text-body-secondary">Artisan</p>
+                <div class="socmedwrap pt-3">
+                  <div class="row justify-content-center">
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-facebook fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-instagram fs-2"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="col-3">
+                      <div class="socmedicon rounded-circle iconbtn justify-content-center d-flex">
+                        <i class="bi bi-whatsapp fs-2"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team -->
+
+    <!-- Map -->
+    <section class="map py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4 class="fw-bold">Ask a question</h4>
+            <div class="form pt-3">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Your Message</textarea>
+              </div>
+              <div class="mb-3">
+                <a href="#" class="sendmsgbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white">SEND MESSAGE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3604679320924!2d106.8245560741674!3d-6.3473483620979545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec2e63dcf7b7%3A0x39a93c506b0174b8!2sPoliteknik%20Negeri%20Media%20Kreatif%20Jakarta!5e0!3m2!1sid!2sid!4v1683275986133!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map -->
+
+    <!-- Download -->
+    <section class="download">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h4>Download App</h4>
+            <h2 class="fw-bold display-5">Download the app. <br> Click order and enjoy.</h2>
+            <p class="text-body-secondary"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus similique unde quae amet. Iste magni, incidunt culpa quos ratione sint, itaque placeat dolor cum corrupti dignissimos perferendis. Quod, soluta.</p>
+            <div class="download row">
+              <div class="mb-3 col-lg-6">
+                <a href="#" class="downloadbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-google-play"></i>  Download Now</a>
+              </div>
+              <div class="mb-3 col-lg-6">
+                <a href="#" class="downloadbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-apple"></i> Download Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/orang.png" alt="orang" width="100%">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Download -->
+
+    <!-- Footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <hr class="border border-white border-1">
+          </div>
+          <div class="col-2 footlogo text-center justify-content-center">
+            <img src="img/logo.svg" alt="logo" width="100%">
+          </div>
+          <div class="col-5">
+            <hr class="border border-white border-1">
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col-lg-3 text-white text-center">
+            <h3 class="fw-bold">Address</h3>
+            <p>570 8th Ave,
+              <br>New York, NY 10018
+              <br>United States</p>
+          </div>
+          <div class="col-lg-3 text-white text-center">
+            <h3 class="fw-bold">Book a table</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ullam!</p>
+            <h3 class="text-warning">1500 600</h3>
+          </div>
+          <div class="col-lg-3 text-white text-center">
+            <h3 class="fw-bold">Opening hours </h3>
+            <p>Monday – Friday
+              <br>10.00 AM – 11.00 PM</p>
+          </div>
+          <div class="col-lg-3 text-white text-center">
+            <h3 class="fw-bold">Instagram feed</h3>
+            <div class="row px-3">
+              <div class="col-lg-4">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+              </div>
+              <div class="col-lg-4">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+              </div>
+              <div class="col-lg-4">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pb-3">
+          <div class="col-12">
+            <hr class="border border-white border-1">
+          </div>
+        </div>
+        <div class="row py-5 align-items-center">
+          <div class="col-lg-9 text-white">
+            <div class="pb-3">
+              <div class="row">
+                <div class="col-1">
+                  <a href="#" class="footermenu">About</a>
+                </div>
+                <div class="col-1">
+                  <a href="#" class="footermenu">Menu</a>
+                </div>
+                <div class="col-1">
+                  <a href="#" class="footermenu">Blog</a>
+                </div>
+                <div class="col-1">
+                  <a href="#" class="footermenu">Gallery</a>
+                </div>
+                <div class="col-1">
+                  <a href="#" class="footermenu">Help</a>
+                </div>
+                <div class="col-1">
+                  <a href="#" class="footermenu">Contact</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              Copyright 2023 kurniawansendhy - All Rights Reserved
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="socmedwrap pt-3">
+              <div class="row justify-content-end">
+                <a href="#" class="col-3">
+                  <div class="footericon rounded-circle footerbtn justify-content-center d-flex align-items-center">
+                    <i class="bi bi-twitter fs-4"></i>
+                  </div>
+                </a>
+                <a href="#" class="col-3">
+                  <div class="footericon rounded-circle footerbtn justify-content-center d-flex align-items-center">
+                    <i class="bi bi-facebook fs-4"></i>
+                  </div>
+                </a>
+                <a href="#" class="col-3">
+                  <div class="footericon rounded-circle footerbtn justify-content-center d-flex align-items-center">
+                    <i class="bi bi-youtube fs-4"></i>
+                  </div>
+                </a>
+                <a href="#" class="col-3">
+                  <div class="footericon rounded-circle footerbtn justify-content-center d-flex align-items-center">
+                    <i class="bi bi-vimeo fs-4"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
