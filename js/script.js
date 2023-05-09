@@ -73,3 +73,36 @@ cardmenu4.addEventListener("mouseleave", function () {
   cardmenu4.classList.add("cardmenuhoverbot");
 });
 // Card Menu Animation
+
+// Card Deals
+
+const carddeals1 = document.getElementById("carddeals1");
+const carddeals2 = document.getElementById("carddeals2");
+const carddeals3 = document.getElementById("carddeals3");
+
+carddeals1.addEventListener("mouseover", function () {
+  carddeals1.classList.remove("carddealshoverbot");
+  carddeals1.classList.add("carddealshoverup");
+});
+carddeals1.addEventListener("mouseleave", function () {
+  carddeals1.classList.remove("carddealshoverup");
+  carddeals1.classList.add("carddealshoverbot");
+});
+
+carddeals2.addEventListener("mouseover", function () {
+  carddeals2.classList.remove("carddealshoverbot");
+  carddeals2.classList.add("carddealshoverup");
+});
+carddeals2.addEventListener("mouseleave", function () {
+  carddeals2.classList.remove("carddealshoverup");
+  carddeals2.classList.add("carddealshoverbot");
+});
+
+carddeals3.addEventListener("mouseover", function () {
+  carddeals3.classList.remove("carddealshoverbot");
+  carddeals3.classList.add("carddealshoverup");
+});
+carddeals3.addEventListener("mouseleave", function () {
+  carddeals3.classList.remove("carddealshoverup");
+  carddeals3.classList.add("carddealshoverbot");
+});

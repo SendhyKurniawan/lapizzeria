@@ -1,3 +1,35 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Sail */
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+/* Knewave */
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.sail {
+  font-family: "Sail", cursive !important;
+}
+
+.knewave {
+  font-family: "Knewave", cursive;
+}
+
+.titlered {
+  color: rgb(231, 39, 45);
+}
+
+.titlegreen {
+  color: rgb(137, 183, 88);
+}
+
 .navbar {
   background-color: rgb(231, 39, 45);
   height: 5rem;
@@ -36,14 +68,25 @@
   color: black !important;
 }
 
+.buynowbtn {
+  background-color: white !important;
+  color: rgb(231, 39, 45) !important;
+}
+.buynowbtn:hover {
+  background-color: white !important;
+  color: rgb(251, 190, 54) !important;
+}
+
 .jumbotron {
-  padding-left: 2rem;
-  padding-right: 2rem;
   width: 100%;
   padding-top: 9rem;
-  padding-bottom: 9rem;
   background-color: rgb(231, 39, 45);
   overflow: hidden;
+}
+
+.jumbowrap {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .content {
@@ -84,6 +127,10 @@
   color: black;
   background-color: rgb(251, 190, 54) !important;
 }
+.ordernowbtn:hover {
+  color: black;
+  background-color: rgb(255, 177, 10) !important;
+}
 
 .cardinvis {
   background-color: transparent !important;
@@ -92,11 +139,11 @@
 
 .cardmenuhoverup {
   transform: translateY(-5%);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .cardmenuhoverbot {
   transform: translateY(0);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .pizzaimg {
@@ -138,8 +185,6 @@
 }
 
 .parallax {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   background-image: url("parallax.jpg");
   height: 100%;
   background-attachment: fixed;
@@ -208,6 +253,19 @@
   text-decoration: none;
 }
 
+.carddeals {
+  border: none !important;
+}
+
+.carddealshoverup {
+  transform: translateY(-5%);
+  transition: all 0.3s ease-in-out;
+}
+.carddealshoverbot {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
 #carddeals1 {
   background-color: rgb(231, 39, 45) !important;
 }
@@ -220,7 +278,12 @@
 
 .squarebox {
   width: 100%;
-  height: 500px;
+  height: 100%;
+}
+
+.videowrap {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .playbtn {
@@ -339,6 +402,11 @@
 .footlogo:hover {
   rotate: 360deg;
   transition: all 0.5s ease-in-out;
+}
+
+.myig {
+  text-decoration: none;
+  color: rgb(231, 39, 45);
 }
 
 @media only screen and (max-width: 1200px) {

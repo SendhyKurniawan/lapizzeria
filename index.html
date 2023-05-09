@@ -9,7 +9,6 @@
     <title>La Pizzeria</title>
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <!-- Bootstrap Icons -->
@@ -21,7 +20,7 @@
     <section class="navigation">
       <nav class="navbar navbar fixed-top navbar-expand-lg navbar-before-scroll shadow-0" id="main-navbar">
         <div class="container">
-          <a class="navbar-brand text-white" href="#"> <img class="navlogo" src="img/logo.svg" alt="Pizzeria" /> La Pizzeria </a>
+          <a class="navbar-brand text-white sail fs-4" href="#"> <img class="navlogo" src="img/logo.svg" alt="Pizzeria" /> La Pizzeria </a>
           <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,8 +44,8 @@
                   <li><a class="dropdown-item text-white" href="#">Progress/Maps/Contacts/Footers</a></li>
                 </ul>
               </li>
-              <div class="buynowbtn">
-                <a href="#" class="btn btn-light btn-md rounded-pill">BUY NOW</a>
+              <div class="">
+                <a href="#" class="btn buynowbtn btn-md px-4 py-2 rounded-pill">BUY NOW</a>
               </div>
             </ul>
           </div>
@@ -57,7 +56,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron">
-      <div class="container">
+      <div class="container jumbowrap">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="content">
@@ -92,14 +91,21 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFFFFF"
+          fill-opacity="1"
+          d="M0,32L48,53.3C96,75,192,117,288,117.3C384,117,480,75,576,90.7C672,107,768,181,864,181.3C960,181,1056,107,1152,85.3C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Jumbotron -->
 
     <!-- Special Menu -->
     <section class="specialmenu py-5">
       <div class="container pb-3">
-        <div class="row text-center pb-5">
-          <h2>SPECIALS COMBO</h2>
+        <div class="row text-center">
+          <h3 class="knewave titlered">SPECIALS COMBO</h3>
           <h1 class="fw-bold display-4">Our Best Sellers</h1>
         </div>
         <div class="row">
@@ -117,7 +123,7 @@
               </a>
             </div>
             <!-- Body SVG -->
-            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96">
               <path
                 id="bodysvg1"
                 class="bodysvg"
@@ -141,7 +147,7 @@
               </a>
             </div>
             <!-- Body SVG -->
-            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96">
               <path
                 id="bodysvg2"
                 class="bodysvg"
@@ -152,7 +158,7 @@
           </div>
           <!-- Card Menu -->
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis  col-md-6 col-lg-3 text-center pt-5" id="cardmenu3">
+          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu3">
             <img src="img/pizza/mozzarela.png" class="card-img pizzaimg" id="cardimg" alt="mozzarela" />
             <div class="card-body" id="cardbody3">
               <h4 class="card-title fw-bold">Mozzarela</h4>
@@ -165,7 +171,7 @@
               </a>
             </div>
             <!-- Body SVG -->
-            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96" >
+            <svg class="bodysvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.99 483.96">
               <path
                 id="bodysvg3"
                 class="bodysvg"
@@ -176,7 +182,7 @@
           </div>
           <!-- Card Menu -->
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis  col-md-6 col-lg-3 text-center pt-5" id="cardmenu4" >
+          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu4">
             <img src="img/pizza/thaicombo.png" class="card-img pizzaimg" id="cardimg" alt="thaicombo" />
             <div class="card-body" id="cardbody4">
               <h4 class="card-title fw-bold">Thai Combo</h4>
@@ -206,6 +212,13 @@
 
     <!-- Parallax -->
     <section class="parallax">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L48,181.3C96,203,192,245,288,229.3C384,213,480,139,576,101.3C672,64,768,64,864,90.7C960,117,1056,171,1152,165.3C1248,160,1344,96,1392,64L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-12">
@@ -222,16 +235,23 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,224L48,229.3C96,235,192,245,288,224C384,203,480,149,576,154.7C672,160,768,224,864,213.3C960,203,1056,117,1152,85.3C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Parallax -->
 
     <!-- about us -->
-    <section class="about py-5">
+    <section class="about">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-5">
             <div>
-              <h2 class="display-5">Welcome</h2>
+              <h3 class="knewave titlered">Welcome</h3>
               <h1 class="display-2 fw-bold">We make the best pizza in Cibaduyut</h1>
               <h3 class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odit fuga quos vitae, dolorem animi.</h3>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi impedit itaque assumenda quaerat aliquid ratione quibusdam perferendis eos sint hic.</p>
@@ -265,14 +285,21 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="1"
+          d="M0,32L48,32C96,32,192,32,288,74.7C384,117,480,203,576,224C672,245,768,203,864,197.3C960,192,1056,224,1152,224C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- about us -->
 
     <!-- Ingredients -->
-    <section class="ingredient py-5 bg-dark">
+    <section class="ingredient bg-dark">
       <div class="container">
         <div class="row text-center text-white">
-          <h2 class="display-5">INGREDIENT</h2>
+          <h3 class="knewave titlered">INGREDIENT</h3>
           <h1 class="fw-bold display-2">Cooked with natural ingredient</h1>
         </div>
         <div class="row justify-content-center align-items-center">
@@ -327,10 +354,17 @@
     <!-- Ingredients -->
 
     <!-- Menu -->
-    <section class="menu py-5">
+    <section class="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#212529"
+          fill-opacity="1"
+          d="M0,288L48,293.3C96,299,192,309,288,277.3C384,245,480,171,576,133.3C672,96,768,96,864,128C960,160,1056,224,1152,250.7C1248,277,1344,267,1392,261.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
       <div class="container">
         <div class="row text-center">
-          <h4>Menu</h4>
+          <h3 class="knewave titlered">Menu</h3>
           <h2 class="fw-bold display-3">Choose your dish</h2>
         </div>
         <div class="row pt-5 pb-5">
@@ -480,12 +514,12 @@
           </div>
         </div>
         <div class="row text-center pt-5 pb-5">
-          <h4>Deals</h4>
+          <h3 class="knewave titlered">Deals</h3>
           <h2 class="fw-bold display-3">Choose your dish</h2>
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <div class="card mb-3" id="carddeals1">
+            <div class="card mb-3 carddeals shadow" id="carddeals1">
               <div class="row g-0 align-items-center p-4">
                 <div class="col-md-8">
                   <div class="card-body text-white">
@@ -501,7 +535,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card mb-3" id="carddeals2">
+            <div class="card mb-3 carddeals shadow" id="carddeals2">
               <div class="row g-0 align-items-center p-4">
                 <div class="col-md-8">
                   <div class="card-body text-white">
@@ -517,7 +551,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card mb-3" id="carddeals3">
+            <div class="card mb-3 carddeals shadow" id="carddeals3">
               <div class="row g-0 align-items-center p-4">
                 <div class="col-md-8">
                   <div class="card-body text-white">
@@ -538,34 +572,50 @@
     <!-- Menu -->
 
     <!-- Video -->
-    <section class="parallax video squarebox d-flex justify-content-center align-items-center">
+    <section class="parallax video squarebox">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFFFFF"
+          fill-opacity="1"
+          d="M0,32L48,74.7C96,117,192,203,288,245.3C384,288,480,288,576,250.7C672,213,768,139,864,138.7C960,139,1056,213,1152,218.7C1248,224,1344,160,1392,128L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="container videowrap squarebox d-flex justify-content-center align-items-center">
         <div class="rounded-circle btn playbtn bg-danger d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#videoModal">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="iconplay text-white bi bi-play-circle"></i></button>
         </div>
-      </div>
-      <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content bg-transparent border-0">
-            <div class="modal-body">
-              <div class="ratio ratio-16x9">
-                <iframe
-                  src="https://www.youtube.com/embed/U4lz8MN6MQA"
-                  title="DOOM CROSSING: Eternal Horizons ■ Music Video feat. Natalia Natchan aka PiNKII"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-transparent border-0">
+              <div class="modal-body">
+                <div class="ratio ratio-16x9">
+                  <iframe
+                    src="https://www.youtube.com/embed/Tybgyk3hfoM"
+                    title="Asian Pizza"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FFFFFF"
+          fill-opacity="1"
+          d="M0,96L48,106.7C96,117,192,139,288,128C384,117,480,75,576,69.3C672,64,768,96,864,133.3C960,171,1056,213,1152,202.7C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Video -->
 
     <!-- Client review -->
-    <section class="clientsreview py-5">
+    <section class="clientsreview">
       <div class="container text-center pb-5">
-        <h4>Reward</h4>
+        <h3 class="knewave titlegreen">Reward</h3>
         <h2 class="fw-bold display-3">Clients review</h2>
       </div>
       <div class="container">
@@ -577,11 +627,10 @@
           </div>
           <div class="carousel-inner pb-5">
             <div class="carousel-item active">
-              <div class="card cardinvis mb-3 ">
+              <div class="card cardinvis mb-3">
                 <div class="row align-items-center reviewcard">
                   <div class="col-lg-6">
-                    <div class="walterwhite rounded-5 reviewimg">
-                    </div>
+                    <div class="walterwhite rounded-5 reviewimg"></div>
                   </div>
                   <div class="col-lg-6">
                     <div class="card-body">
@@ -598,8 +647,7 @@
               <div class="card cardinvis mb-3 reviewcard">
                 <div class="row g-0 align-items-center">
                   <div class="col-lg-6">
-                    <div class="jesse rounded-5 reviewimg">
-                    </div>
+                    <div class="jesse rounded-5 reviewimg"></div>
                   </div>
                   <div class="col-lg-6">
                     <div class="card-body">
@@ -616,8 +664,7 @@
               <div class="card cardinvis mb-3 reviewcard">
                 <div class="row g-0 align-items-center">
                   <div class="col-lg-6">
-                    <div class="gustavo rounded-5 reviewimg">
-                    </div>
+                    <div class="gustavo rounded-5 reviewimg"></div>
                   </div>
                   <div class="col-lg-6">
                     <div class="card-body">
@@ -633,21 +680,27 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e7272d"
+          fill-opacity="1"
+          d="M0,128L48,133.3C96,139,192,149,288,128C384,107,480,53,576,42.7C672,32,768,64,864,112C960,160,1056,224,1152,229.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- Client Review -->
 
     <!-- Team -->
-    <section class="team py-5">
+    <section class="team">
       <div class="container">
         <div class="row text-white text-center">
-          <h4>Team</h4>
+          <h3 class="knewave">Team</h3>
           <h2 class="fw-bold display-3">Behind the taste</h2>
         </div>
         <div class="row">
           <div class="col-lg-3 p-3">
             <div class="card teamcard text-center py-5 rounded-4">
-              <div class="walterwhite rounded-circle teamimg">
-              </div>
+              <div class="walterwhite rounded-circle teamimg"></div>
               <div class="card-body pt-3">
                 <h5 class="card-title fw-bold">Walter White</h5>
                 <p class="card-text text-body-secondary">Head Chef</p>
@@ -675,8 +728,7 @@
           </div>
           <div class="col-lg-3 p-3">
             <div class="card teamcard text-center py-5 rounded-4">
-              <div class="jesse rounded-circle teamimg">
-              </div>
+              <div class="jesse rounded-circle teamimg"></div>
               <div class="card-body pt-3">
                 <h5 class="card-title fw-bold">Jesse Pinkman</h5>
                 <p class="card-text text-body-secondary">Sous Chef</p>
@@ -704,8 +756,7 @@
           </div>
           <div class="col-lg-3 p-3">
             <div class="card teamcard text-center py-5 rounded-4">
-              <div class="gustavo rounded-circle teamimg">
-              </div>
+              <div class="gustavo rounded-circle teamimg"></div>
               <div class="card-body pt-3">
                 <h5 class="card-title fw-bold">Gustavo Fring</h5>
                 <p class="card-text text-body-secondary">Restaurant Entrepreneur</p>
@@ -733,8 +784,7 @@
           </div>
           <div class="col-lg-3 p-3">
             <div class="card teamcard text-center py-5 rounded-4">
-              <div class="saul rounded-circle teamimg">
-              </div>
+              <div class="saul rounded-circle teamimg"></div>
               <div class="card-body pt-3">
                 <h5 class="card-title fw-bold">James Morgan</h5>
                 <p class="card-text text-body-secondary">Artisan</p>
@@ -766,20 +816,27 @@
     <!-- Team -->
 
     <!-- Map -->
-    <section class="map py-5">
+    <section class="map">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e7272d"
+          fill-opacity="1"
+          d="M0,32L48,53.3C96,75,192,117,288,117.3C384,117,480,75,576,90.7C672,107,768,181,864,181.3C960,181,1056,107,1152,85.3C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <h4 class="fw-bold">Ask a question</h4>
             <div class="form pt-3">
               <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
               </div>
               <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" />
               </div>
               <div class="mb-3">
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number" />
               </div>
               <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Your Message</textarea>
@@ -790,7 +847,16 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3604679320924!2d106.8245560741674!3d-6.3473483620979545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec2e63dcf7b7%3A0x39a93c506b0174b8!2sPoliteknik%20Negeri%20Media%20Kreatif%20Jakarta!5e0!3m2!1sid!2sid!4v1683275986133!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3604679320924!2d106.8245560741674!3d-6.3473483620979545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec2e63dcf7b7%3A0x39a93c506b0174b8!2sPoliteknik%20Negeri%20Media%20Kreatif%20Jakarta!5e0!3m2!1sid!2sid!4v1683275986133!5m2!1sid!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -802,12 +868,17 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <h4>Download App</h4>
-            <h2 class="fw-bold display-5">Download the app. <br> Click order and enjoy.</h2>
-            <p class="text-body-secondary"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus similique unde quae amet. Iste magni, incidunt culpa quos ratione sint, itaque placeat dolor cum corrupti dignissimos perferendis. Quod, soluta.</p>
+            <h3 class="knewave titlered">Download App</h3>
+            <h2 class="fw-bold display-5">
+              Download the app. <br />
+              Click order and enjoy.
+            </h2>
+            <p class="text-body-secondary">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus similique unde quae amet. Iste magni, incidunt culpa quos ratione sint, itaque placeat dolor cum corrupti dignissimos perferendis. Quod, soluta.
+            </p>
             <div class="download row">
               <div class="mb-3 col-lg-6">
-                <a href="#" class="downloadbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-google-play"></i>  Download Now</a>
+                <a href="#" class="downloadbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-google-play"></i> Download Now</a>
               </div>
               <div class="mb-3 col-lg-6">
                 <a href="#" class="downloadbtn btn btn-md rounded-pill p-3 px-5 fw-bold text-white"><i class="bi bi-apple"></i> Download Now</a>
@@ -815,7 +886,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <img src="img/orang.png" alt="orang" width="100%">
+            <img src="img/orang.png" alt="orang" width="100%" />
           </div>
         </div>
       </div>
@@ -827,21 +898,19 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-5">
-            <hr class="border border-white border-1">
+            <hr class="border border-white border-1" />
           </div>
           <div class="col-2 footlogo text-center justify-content-center">
-            <img src="img/logo.svg" alt="logo" width="100%">
+            <img src="img/logo.svg" alt="logo" width="100%" />
           </div>
           <div class="col-5">
-            <hr class="border border-white border-1">
+            <hr class="border border-white border-1" />
           </div>
         </div>
         <div class="row py-3">
           <div class="col-lg-3 text-white text-center">
             <h3 class="fw-bold">Address</h3>
-            <p>570 8th Ave,
-              <br>New York, NY 10018
-              <br>United States</p>
+            <p>570 8th Ave, <br />New York, NY 10018 <br />United States</p>
           </div>
           <div class="col-lg-3 text-white text-center">
             <h3 class="fw-bold">Book a table</h3>
@@ -849,28 +918,27 @@
             <h3 class="text-warning">1500 600</h3>
           </div>
           <div class="col-lg-3 text-white text-center">
-            <h3 class="fw-bold">Opening hours </h3>
-            <p>Monday – Friday
-              <br>10.00 AM – 11.00 PM</p>
+            <h3 class="fw-bold">Opening hours</h3>
+            <p>Monday – Friday <br />10.00 AM – 11.00 PM</p>
           </div>
           <div class="col-lg-3 text-white text-center">
             <h3 class="fw-bold">Instagram feed</h3>
             <div class="row px-3">
               <div class="col-lg-4">
-                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px" />
               </div>
               <div class="col-lg-4">
-                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px" />
               </div>
               <div class="col-lg-4">
-                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px">
+                <img src="img/pizza/mozzarela.png" alt="pizza" width="50px" />
               </div>
             </div>
           </div>
         </div>
         <div class="row pb-3">
           <div class="col-12">
-            <hr class="border border-white border-1">
+            <hr class="border border-white border-1" />
           </div>
         </div>
         <div class="row py-5 align-items-center">
@@ -897,9 +965,7 @@
                 </div>
               </div>
             </div>
-            <div class="copyright">
-              Copyright 2023 kurniawansendhy - All Rights Reserved
-            </div>
+            <div class="copyright">Copyright 2023 <a class="myig" href="https://www.instagram.com/kurniawansendhy/">@kurniawansendhy</a> - All Rights Reserved</div>
           </div>
           <div class="col-lg-3">
             <div class="socmedwrap pt-3">
