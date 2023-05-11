@@ -224,10 +224,10 @@
 
 .aboutimg {
   float: right !important;
-  width: 700px;
+  width: 200%;
   position: relative;
   height: auto;
-  margin-right: -60% !important;
+  margin-right: -100% !important;
 }
 
 .sideingredient {
@@ -448,6 +448,10 @@
     padding: 30px;
   }
 
+  .cardmenu {
+    padding-bottom: 5rem;
+  }
+
   .mainimg {
     width: 100%;
   }
@@ -536,10 +540,6 @@
   .mainimg {
     margin: auto;
     width: 100%;
-  }
-
-  .cardmenu {
-    scale: 90%;
   }
 }
 @media only screen and (max-width: 350px) {

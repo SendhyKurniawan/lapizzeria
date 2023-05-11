@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sendhy Kurniawan -->
+    <!-- 229043107 -->
     <!-- icon -->
     <link rel="icon" href="img/logo.svg" type="image/x-icon" />
     <title>La Pizzeria</title>
@@ -28,20 +30,20 @@
             <ul class="navbar-nav text-uppercase ms-auto mb-2 mb-lg-0 p-3">
               <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
               <li class="nav-item dropdown">
-                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Live Demo </a>
+                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Our Food </a>
                 <ul class="dropdown-menu rounded-bottom-3">
-                  <li><a class="dropdown-item text-white" href="#">Thai Food Demo</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Pizza Bar Demo</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Sushi Cafe Demo</a></li>
+                  <li><a class="dropdown-item text-white" href="#bestseller">Best Seller</a></li>
+                  <li><a class="dropdown-item text-white" href="#promo">Promo</a></li>
+                  <li><a class="dropdown-item text-white" href="#menu">Menu List</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Live Demo Blocks</a>
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us</a>
                 <ul class="dropdown-menu rounded-bottom-3">
-                  <li><a class="dropdown-item text-white" href="#">Headers/Features/Pricing/Info</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Content/Shop/Accordions/Video</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Gallery/Team/Testimonials/Forms</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Progress/Maps/Contacts/Footers</a></li>
+                  <li><a class="dropdown-item text-white" href="#aboutus">About</a></li>
+                  <li><a class="dropdown-item text-white" href="#ingredient">Ingredient</a></li>
+                  <li><a class="dropdown-item text-white" href="#contact">Contact</a></li>
+                  <li><a class="dropdown-item text-white" href="#download">Download</a></li>
                 </ul>
               </li>
               <div class="">
@@ -102,7 +104,7 @@
     <!-- Jumbotron -->
 
     <!-- Special Menu -->
-    <section class="specialmenu py-5">
+    <section class="specialmenu pt-5" id="bestseller">
       <div class="container pb-3">
         <div class="row text-center">
           <h3 class="knewave titlered">SPECIALS COMBO</h3>
@@ -110,7 +112,7 @@
         </div>
         <div class="row">
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu1">
+          <div class="card cardmenu cardinvis col-sm-6 col-md-6 col-lg-3 text-center pt-5" id="cardmenu1">
             <img src="img/pizza/mozzarela.png" class="card-img pizzaimg" id="cardimg" alt="mozzarela" />
             <div class="card-body" id="cardbody1">
               <h4 class="card-title fw-bold">Mozzarela</h4>
@@ -134,7 +136,7 @@
           </div>
           <!-- Card Menu -->
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu2">
+          <div class="card cardmenu cardinvis col-sm-6 col-md-6 col-lg-3 text-center pt-5" id="cardmenu2">
             <img src="img/pizza/thaicombo.png" class="card-img pizzaimg" id="cardimg" alt="thaicombo" />
             <div class="card-body" id="cardbody2">
               <h4 class="card-title fw-bold">Thai Combo</h4>
@@ -158,7 +160,7 @@
           </div>
           <!-- Card Menu -->
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu3">
+          <div class="card cardmenu cardinvis col-sm-6 col-md-6 col-lg-3 text-center pt-5" id="cardmenu3">
             <img src="img/pizza/mozzarela.png" class="card-img pizzaimg" id="cardimg" alt="mozzarela" />
             <div class="card-body" id="cardbody3">
               <h4 class="card-title fw-bold">Mozzarela</h4>
@@ -182,7 +184,7 @@
           </div>
           <!-- Card Menu -->
           <!-- Card Menu -->
-          <div class="card cardmenu cardinvis col-md-6 col-lg-3 text-center pt-5" id="cardmenu4">
+          <div class="card cardmenu cardinvis col-sm-6 col-md-6 col-lg-3 text-center pt-5" id="cardmenu4">
             <img src="img/pizza/thaicombo.png" class="card-img pizzaimg" id="cardimg" alt="thaicombo" />
             <div class="card-body" id="cardbody4">
               <h4 class="card-title fw-bold">Thai Combo</h4>
@@ -211,7 +213,7 @@
     <!-- Special Menu -->
 
     <!-- Parallax -->
-    <section class="parallax">
+    <section class="parallax" id="promo">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -246,7 +248,7 @@
     <!-- Parallax -->
 
     <!-- about us -->
-    <section class="about">
+    <section class="about pt-5" id="aboutus">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-5">
@@ -280,7 +282,7 @@
           </div>
           <div class="col-md-12 col-lg-5">
             <div class="aboutimgwrap">
-              <img class="aboutimg" src="img/pizza/mozzarela.png" alt="Mozzarela" width="800px" />
+              <img class="aboutimg" src="img/pizza/mozzarela.png" alt="Mozzarela" />
             </div>
           </div>
         </div>
@@ -296,14 +298,14 @@
     <!-- about us -->
 
     <!-- Ingredients -->
-    <section class="ingredient bg-dark">
+    <section class="ingredient bg-dark pt-5" id="ingredient">
       <div class="container">
         <div class="row text-center text-white">
           <h3 class="knewave titlered">INGREDIENT</h3>
           <h1 class="fw-bold display-2">Cooked with natural ingredient</h1>
         </div>
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-12 col-lg-4 text-white">
+          <div class="col-md-12 col-lg-4 text-white text-md-start text-sm-center">
             <div class="item">
               <h3 class="pb-2">
                 Fresh <a href="#" class="sideingredient"><strong>Vegetables</strong></a>
@@ -328,7 +330,7 @@
             <img src="img/pizza/mozzarela.png" alt="Mozzarela" width="100%" />
           </div>
 
-          <div class="col-md-12 col-lg-4 text-white text-end">
+          <div class="col-md-12 col-lg-4 text-white text-md-end text-sm-center">
             <div class="item">
               <h3 class="pb-2">
                 Mild <a href="#" class="sideingredient"><strong>Butter</strong></a>
@@ -354,7 +356,7 @@
     <!-- Ingredients -->
 
     <!-- Menu -->
-    <section class="menu">
+    <section class="menu" id="menu">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#212529"
@@ -375,13 +377,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Salmon Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$18</p>
                   </div>
                 </div>
@@ -392,13 +394,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">THAI FOOD</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Spicy Fish Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$28</p>
                   </div>
                 </div>
@@ -409,13 +411,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">PIZZA</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Mozzarela Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$14</p>
                   </div>
                 </div>
@@ -426,13 +428,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Salmon Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$18</p>
                   </div>
                 </div>
@@ -447,13 +449,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Salmon Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$18</p>
                   </div>
                 </div>
@@ -464,13 +466,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">THAI FOOD</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Spicy Fish Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$28</p>
                   </div>
                 </div>
@@ -481,13 +483,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">PIZZA</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Mozzarela Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$14</p>
                   </div>
                 </div>
@@ -498,13 +500,13 @@
                   <h5 class="menutag btn btn-danger fw-bold">SUSHI</h5>
                 </div>
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <p class="fs-3 fw-bold">Salmon Pizza</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-sm-4">
                     <hr class="menuborder border-3 opacity-100" />
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-sm-2">
                     <p class="fs-3 fw-bold menuprice">$18</p>
                   </div>
                 </div>
@@ -590,7 +592,7 @@
               <div class="modal-body">
                 <div class="ratio ratio-16x9">
                   <iframe
-                    src="https://www.youtube.com/embed/Tybgyk3hfoM"
+                    src="https://www.youtube.com/embed/ceQ2XFS1tUo"
                     title="Asian Pizza"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -613,7 +615,7 @@
     <!-- Video -->
 
     <!-- Client review -->
-    <section class="clientsreview">
+    <section class="clientsreview pt-5">
       <div class="container text-center pb-5">
         <h3 class="knewave titlegreen">Reward</h3>
         <h2 class="fw-bold display-3">Clients review</h2>
@@ -691,7 +693,7 @@
     <!-- Client Review -->
 
     <!-- Team -->
-    <section class="team">
+    <section class="team pt-5">
       <div class="container">
         <div class="row text-white text-center">
           <h3 class="knewave">Team</h3>
@@ -816,7 +818,7 @@
     <!-- Team -->
 
     <!-- Map -->
-    <section class="map">
+    <section class="map" id="contact">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e7272d"
@@ -864,7 +866,7 @@
     <!-- Map -->
 
     <!-- Download -->
-    <section class="download">
+    <section class="download pt-5" id="download">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
